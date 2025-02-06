@@ -85,3 +85,65 @@
         drwxrws--- 2 root projekti 4096 Jan 30 14:19 /opt/projekti
 
 ![screenshot](img/image.png)
+
+
+# Assignment 4 - Markdown and git 
+
+## Step 1:
+- Create a README.md file in VS code.
+
+## Step 2:
+- Fill the information with the help of markdown language.
+- This include titles, lists, subtitle, examples of bold, italic, links, code block, table and inserting images.
+
+## Step 3:
+- Save this file.
+
+## Step 4:
+- Open command prompt and connect to the AZURE account with the help of personal key.
+- make directory named markdown_linux_harjoitus:
+
+                mkdir markdown_linux_harjoitus
+
+- Go to the created directory with the command:
+
+                cd markdown_linux_assingment
+
+- Create a new empty file named README.md with the command:
+
+                touch README.md
+
+-  Check that the file was created successfully with the command:
+
+                ll
+
+- Open README.md file in a text editor, for example, using a nano editor:
+
+                nano README.md
+
+- Add the existing Markdown content to the file and save the changes.
+
+## Step 5: Git version control
+- Initialize a new Git repository in the directory with markdown_linux_assingment command:
+
+                git init
+
+- Add README.md file to the Git repository with the command:
+
+                git add README.md
+
+- Make your first commit with the command:
+
+                git commit -m "Initial commit: Added README.md with Markdown and Linux instructions"
+
+- Finally, these command in linux helps my first commit:)
+
+- Following screenshot contains all the commands:
+
+![git version control](img/image.png)
+11111qqq
+#### Thank You
+
+
+
+
